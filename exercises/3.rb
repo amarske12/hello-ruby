@@ -15,3 +15,11 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+shopping_list = ["chicken", "avocados", "bud light", "bread","eggs"]
+additional_list = ["quinoa", "apples", "miller light","lays classics","eggs"]
+combo_list = shopping_list + additional_list
+sorted_list = combo_list.sort
+uniqueitem_list = sorted_list.uniq
+
+puts uniqueitem_list
+puts combo_list.sort.uniq

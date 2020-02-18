@@ -9,3 +9,8 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+for cards in ranks
+    for styles in suits
+        puts "#{ranks} of #{suits}"
+    end 
+end
